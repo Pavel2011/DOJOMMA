@@ -1,21 +1,22 @@
 ymaps.ready(init)
 function init() {
   let myMap = new ymaps.Map('ah-map', {
-    center: [55.095874, 36.517316],
+    center: [55.80146, 37.63765],
     zoom: 16,
   })
 
   let placemark = new ymaps.Placemark(
-    [55.095874, 36.517316],
+    [55.80146, 37.63765],
     {
       // baloonContentHeader:'ООО Агрохолдинг',
       // balloonContentBody:'ООО \"Агрохолдинг\"'
       balloonContent: `
   <div class='balloon'>
-  <div class='ball-name'>СНТ \"Венера\"</div>
-  <div class='ball-phone'>Телефон\:+ 7 ...</div>
-  <div class='ball-phone'>Телефон\:+ 7 ...</div>
-  <div class='ball-address'>Адрес\:...</div>
+  <div class='ball-name'>Клуб восточных единоборств \"DojoMMA\"</div>
+  <div class='ball-phone'>Телефон\:Алексей Лавинчук +7 926 230 7664, 
+         </div>
+  <div class='ball-phone'>Телефон\:...  + 7 ...</div>
+  <div class='ball-address'>Адрес\:Москва, проспект Мира 102, с12</div>
   </div>
   `,
     },
