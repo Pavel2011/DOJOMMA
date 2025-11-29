@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ООО Агрохолдинг, Доставка</title>
-  <link rel="shortcut icon" href="../favicon.jpg" />
+  <title>Delivery Page</title>
+  <link rel="shortcut icon" href="../DojoMMA_favicon.ico" />
   <!-- <link rel="stylesheet" href="shared.css" /> -->
   <link rel="stylesheet" href="../main.css" />
   <link rel="stylesheet" href="deliveries.css" />
@@ -17,12 +17,12 @@
      <div>
       <a href="index.html" class="main-header__brand">
 
-        <img src="../images/Lady w.tray - no border no text.jpg" alt="АГРОХОЛДИНГ - Ваша компания." />
+        <img src="../images/_1.logo3.jpg" alt="SNT Venera - your non commercial affari" />
       </a>
      </div>
       
       <div class="tect-title">
-        <h1 class="c-title">ООО "АГРОХОЛДИНГ"</h1>
+        <h1 class="c-title">СНТ "Венера"</h1>
       </div>
     </div>
   <header class="main-header">
@@ -41,7 +41,7 @@
           <span class="toggle-button__bar"></span>
       </button>
       <a href="index.html" class="mobile-header__brand">
-          <img src="../images/Lady w.tray - no border no text.jpg">
+          <img src="../Venus_page-0001--обрезано + Венера-1.jpg" alt="logo AX">
       </a>
   </div>
 
@@ -50,14 +50,19 @@
         <li class="main-nav__item">
           <a href="../index.html">Главная</a>
         </li>
+
         <li class="main-nav__item">
-          <a href="../us/index.html">О компании</a>
+          <a href="../customers/index.html">Тренеры</a>          
         </li>
+                <!-- Changes 26.08.2021 - No Us-page but 'Food cathalog'-page -->
+                <li class="main-nav__item">
+                  <a href="../us/index.html">Расписание</a>
+                </li>
         <li class="main-nav__item">
-          <a href="../customers/index.html">Наши Заказчики</a>
+          <a href="index.html">Сообшество</a>
         </li>
          <li class="main-nav__item">
-          <a href="../hr/index.html">Вакансии</a>
+          <a href="../hr/hr.html">Объявления / Реклама</a>
         </li>
         <li class="main-nav__item">
           <a href="../contacts/index.html">Контакты</a>
@@ -77,28 +82,34 @@
       <li class="mobile-nav__item">
         <a href="../index.html">Главная</a>
       </li>
+            <li class="mobile-nav__item">
+        <a href="../customers/index.html">Тренеры</a>
+      </li>
+
+                          <!--  Changes 26.08.2021 - No Us-page but 'Food cathalog'-page -->
+                          <li class="mobile-nav__item">
+                            <a href="../us/index.html">Расписание</a>
+                          </li>
       <li class="mobile-nav__item">
-        <a href="../us/index.html">О компании</a>
+        <a href="deliveries/index.html">Сообщество</a>
       </li>
       <li class="mobile-nav__item">
-        <a href="../customers/index.html">Наши Заказчики</a>
-      </li>
-     
-      <li class="mobile-nav__item">
-        <a href="../hr/index.html">Вакансии</a>
+        <a href="../hr/hr.html">Объявления / Реклама</a>
       </li> 
       <li class="mobile-nav__item">
         <a href="../contacts/index.html">Контакты</a>
       </li>     
 </section>
+      <!-- =========================================================NAV - ends==================================================================================== -->
 <main class="co-contacts">
    <div class="co-info">
-   <h3>
+     <!-- ==========================co info start=============================================================
+    <h3>
       Компания «Агрохолдинг» осуществляет доставку приобретенных у нас продуктов  по г. Москве и Московской области. Возможна доставка в близлежащие регионы.
     </h3>
-    <!-- <h4>ИНН 9701121948, 
+   ========================= <h4>ИНН 9701121948, 
       ОГРН 1187746798293
-      </h4> -->
+      </h4>==============================
     <ul class="contacts-list">
       <li> Доставка осуществляется как изотермическими автофургонами, так и рефрижераторными,  при температурном режиме от +4C° до -18 C°.          
       </li>
@@ -107,8 +118,11 @@
       <li>Рефрижераторные автофургоны предназначены для перевозки замороженных продуктов и оборудованны собственной холодильной установкой, поддерживающей температуру в фургоне вплоть до -18C°. </li>
        
     </ul>
+     =======================================================co-info end===================================================-->
   </div>
+  <!-- <div class="d-moscow"> -->
   <div class="delivery-tariff-list">
+    <!-- ===============================================d-tariff==================================================================
     <h3> 
       Тарифы на доставку.
     </h3>
@@ -240,12 +254,14 @@
       <h3>Зоны в пределах МКАД</h3>
       <img src="../images/Moscow - Карта с зонами.jpg" alt="MOscow d-zones">
     </div>
+    
   </div>
-
+ </div> - Moscow tab+map end -->
 
   </div>
-<!-- За МКАД======== -->
-<div class="delivery-moscow">
+<!-- За МКАД======== -
+<div class="delivery-mosregion">
+   ===============================delivery MosRegion========================================================================================================
   <table class="t-1">
 <caption>Москва и область за МКАД</caption>
 <tr>
@@ -299,12 +315,7 @@
 <tr>
 <th>8</th>
 <td colspan="7">Стоимость согласовывается</td>
-<!-- <td>5 900</td>
-<td>6 500</td>
-<td>8 300</td>
-<td>9 800</td>
-<td>11 900</td>
-<td>15 700</td> -->
+
 </tr>
 <tr>
 <th>Доп. точка</th>
@@ -351,12 +362,7 @@
 <tr>
 <th>8</th>
 <td colspan="7">Стоимость согласовывается</td>
-<!-- <td>6 300</td>
-<td>6 900</td>
-<td>8 700</td>
-<td>11 300</td>
-<td>12 900</td>
-<td>16 500</td> -->
+
 </tr>
 <tr>
 <th>Доп. точка</th>
@@ -374,8 +380,10 @@
     <img src="../images/Mos.region-Карта с зонами 2.jpg" alt="MOscow d-zones">
   </div>
 </div>
+  ==================================Mos Region tariff zones END=============================================================================-->
 </div>
 <div class="d-zone-list">
+  <!-- =======================================zone list==============================================================================================
 <table class="t1">
   <tr>
     <th>  Зона №  </th>
@@ -414,9 +422,10 @@
     <td>Московская область. До границ области. Другие регионы.</td>
   </tr>
 </table>
-
+===============================================zone list end==================================================================== -->
 </div>
 <div class="d-last">
+  <!--============================================price policy description===============================================================================
 <h4>
   Все цены указаны в рублях, в т.ч. НДС 20% .
 Стоимость указана за доставку в одну точку. 
@@ -434,7 +443,7 @@
 Возможен самовывоз с нашего склада по предварительной договоренности с менеджером. Отгрузка товара при самовывозе осуществляется с понедельника по пятницу с 10.00 до 15.00.
 
 </h4>
-
+===================================================price policy description end================================================================================================================== -->
 </div>
 
 <!-- FOOTER -->
@@ -471,9 +480,6 @@
   </div>
 </div>
 </main>
- 
-</main>
-
 
 <script src="../script.js"></script>
 </body>
